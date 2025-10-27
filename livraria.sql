@@ -17,6 +17,12 @@ CREATE TABLE Pedido (
 );
 
 INSERT INTO Produto (nome, preco, estoque) VALUES
-('Java para Iniciantes', 25.50, 15),
-('Estruturas de Dados em C', 40.00, 5);
+('Harry Potter, 0.99, 47),
+('O Senhor dos Anéis', 1.50, 30),
+('O Guia do Mochileiro das Galáxias', 99.00, 42);
+
+INSERT INTO Pedido (data_pedido, valor_total, id_produto) VALUES
+('2024-01-15', 0.99, 1),
+('2024-02-20', 1.50, 2),
+('2024-03-10', 99.00, 3);
 
